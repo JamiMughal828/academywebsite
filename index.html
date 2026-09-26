@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EduPro Academy</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                Edu<span>Pro</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#instructors">Instructors</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+
+                <button class="theme-btn" id="themeBtn" title="Change Theme">
+                    🌙
+                </button>
+
+                <button class="menu-btn" id="menuBtn">
+                    ☰
+                </button>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-container">
+
+            <div class="hero-content reveal">
+
+                <span class="hero-badge">
+                    🎓 Learn • Grow • Succeed
+                </span>
+
+                <h1>
+                    Build Your Future
+                    <span>With Education</span>
+                </h1>
+
+                <p>
+                    Learn professional skills from expert instructors
+                    and take your career to the next level with
+                    EduPro Academy.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#courses" class="btn btn-primary">
+                        Explore Courses
+                    </a>
+
+                    <button class="btn btn-outline" id="heroRegister">
+                        Register Now
+                    </button>
+
+                </div>
+
+                <div class="hero-stats">
+
+                    <div>
+                        <strong class="counter" data-target="20">0</strong>+
+                        <small>Courses</small>
+                    </div>
+
+                    <div>
+                        <strong class="counter" data-target="1500">0</strong>+
+                        <small>Students</small>
+                    </div>
+
+                    <div>
+                        <strong class="counter" data-target="25">0</strong>+
+                        <small>Teachers</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-image reveal">
+
+                <div class="image-card">
+
+                    <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80"
+                        alt="Students learning">
+
+                    <div class="floating-card card-one">
+                        📚 <span>20+ Courses</span>
+                    </div>
+
+                    <div class="floating-card card-two">
+                        ⭐ <span>4.9 Rating</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= COURSES ================= -->
+
+    <section class="courses-section" id="courses">
+
+        <div class="section-heading reveal">
+
+            <span>OUR COURSES</span>
+
+            <h2>Explore Popular Courses</h2>
+
+            <p>
+                Choose the right course and build your professional future.
+            </p>
+
+        </div>
+
+
+        <div class="filters reveal">
+
+            <button class="filter-btn active" data-filter="all">
+                All
+            </button>
+
+            <button class="filter-btn" data-filter="it">
+                IT
+            </button>
+
+            <button class="filter-btn" data-filter="design">
+                Design
+            </button>
+
+            <button class="filter-btn" data-filter="business">
+                Business
+            </button>
+
+        </div>
+
+
+        <div class="course-grid">
+
+
+            <div class="course-card reveal" data-category="it">
+
+                <div class="course-image">
+
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80"
+                        alt="Web Development">
+
+                    <span>IT</span>
+
+                </div>
+
+                <div class="course-content">
+
+                    <h3>Web Development</h3>
+
+                    <p>
+                        Learn HTML, CSS, JavaScript and modern
+                        responsive web development.
+                    </p>
+
+                    <div class="course-info">
+                        <span>⏱ 3 Months</span>
+                        <span>⭐ 4.9</span>
+                    </div>
+
+                    <div class="course-bottom">
+                        <strong>$99</strong>
+
+                        <button class="learn-btn">
+                            Learn More
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="course-card reveal" data-category="design">
+
+                <div class="course-image">
+
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=800&q=80"
+                        alt="Graphic Design">
+
+                    <span>Design</span>
+
+                </div>
+
+                <div class="course-content">
+
+                    <h3>Graphic Design</h3>
+
+                    <p>
+                        Learn Photoshop, Illustrator and professional
+                        design techniques.
+                    </p>
+
+                    <div class="course-info">
+                        <span>⏱ 3 Months</span>
+                        <span>⭐ 4.8</span>
+                    </div>
+
+                    <div class="course-bottom">
+                        <strong>$89</strong>
+
+                        <button class="learn-btn">
+                            Learn More
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="course-card reveal" data-category="business">
+
+                <div class="course-image">
+
+                    <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=800&q=80"
+                        alt="Business Management">
+
+                    <span>Business</span>
+
+                </div>
+
+                <div class="course-content">
+
+                    <h3>Business Management</h3>
+
+                    <p>
+                        Develop leadership, management and
+                        communication skills.
+                    </p>
+
+                    <div class="course-info">
+                        <span>⏱ 2 Months</span>
+                        <span>⭐ 4.7</span>
+                    </div>
+
+                    <div class="course-bottom">
+                        <strong>$79</strong>
+
+                        <button class="learn-btn">
+                            Learn More
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="course-card reveal" data-category="it">
+
+                <div class="course-image">
+
+                    <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=800&q=80"
+                        alt="Programming">
+
+                    <span>IT</span>
+
+                </div>
+
+                <div class="course-content">
+
+                    <h3>Programming</h3>
+
+                    <p>
+                        Learn programming fundamentals and
+                        problem-solving techniques.
+                    </p>
+
+                    <div class="course-info">
+                        <span>⏱ 4 Months</span>
+                        <span>⭐ 4.9</span>
+                    </div>
+
+                    <div class="course-bottom">
+                        <strong>$129</strong>
+
+                        <button class="learn-btn">
+                            Learn More
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="course-card reveal" data-category="design">
+
+                <div class="course-image">
+
+                    <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=800&q=80"
+                        alt="UI UX Design">
+
+                    <span>Design</span>
+
+                </div>
+
+                <div class="course-content">
+
+                    <h3>UI/UX Design</h3>
+
+                    <p>
+                        Learn modern interface design and
+                        user experience principles.
+                    </p>
+
+                    <div class="course-info">
+                        <span>⏱ 3 Months</span>
+                        <span>⭐ 4.8</span>
+                    </div>
+
+                    <div class="course-bottom">
+                        <strong>$109</strong>
+
+                        <button class="learn-btn">
+                            Learn More
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="course-card reveal" data-category="business">
+
+                <div class="course-image">
+
+                    <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80"
+                        alt="Digital Marketing">
+
+                    <span>Business</span>
+
+                </div>
+
+                <div class="course-content">
+
+                    <h3>Digital Marketing</h3>
+
+                    <p>
+                        Learn SEO, social media, advertising and
+                        marketing strategies.
+                    </p>
+
+                    <div class="course-info">
+                        <span>⏱ 3 Months</span>
+                        <span>⭐ 4.9</span>
+                    </div>
+
+                    <div class="course-bottom">
+                        <strong>$95</strong>
+
+                        <button class="learn-btn">
+                            Learn More
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= INSTRUCTORS ================= -->
+
+    <section class="instructors-section" id="instructors">
+
+        <div class="section-heading reveal">
+
+            <span>OUR TEAM</span>
+
+            <h2>Meet Our Expert Instructors</h2>
+
+            <p>
+                Learn from experienced professionals.
+            </p>
+
+        </div>
+
+
+        <div class="instructor-grid">
+
+
+            <div class="instructor-card reveal">
+
+                <div class="instructor-image">
+
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg"
+                        alt="Instructor">
+
+                </div>
+
+                <h3>Ahmed Khan</h3>
+
+                <p>Web Development Expert</p>
+
+                <div class="socials">
+                    <span>f</span>
+                    <span>in</span>
+                    <span>𝕏</span>
+                </div>
+
+            </div>
+
+
+            <div class="instructor-card reveal">
+
+                <div class="instructor-image">
+
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg"
+                        alt="Instructor">
+
+                </div>
+
+                <h3>Sarah Ali</h3>
+
+                <p>Graphic Design Expert</p>
+
+                <div class="socials">
+                    <span>f</span>
+                    <span>in</span>
+                    <span>𝕏</span>
+                </div>
+
+            </div>
+
+
+            <div class="instructor-card reveal">
+
+                <div class="instructor-image">
+
+                    <img src="https://randomuser.me/api/portraits/men/75.jpg"
+                        alt="Instructor">
+
+                </div>
+
+                <h3>Usman Raza</h3>
+
+                <p>Business Consultant</p>
+
+                <div class="socials">
+                    <span>f</span>
+                    <span>in</span>
+                    <span>𝕏</span>
+                </div>
+
+            </div>
+
+
+            <div class="instructor-card reveal">
+
+                <div class="instructor-image">
+
+                    <img src="https://randomuser.me/api/portraits/women/65.jpg"
+                        alt="Instructor">
+
+                </div>
+
+                <h3>Ayesha Malik</h3>
+
+                <p>Digital Marketing Expert</p>
+
+                <div class="socials">
+                    <span>f</span>
+                    <span>in</span>
+                    <span>𝕏</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PRICING ================= -->
+
+    <section class="pricing-section" id="pricing">
+
+        <div class="section-heading reveal">
+
+            <span>PRICING PLANS</span>
+
+            <h2>Choose Your Learning Plan</h2>
+
+            <p>
+                Flexible plans designed for every learner.
+            </p>
+
+        </div>
+
+
+        <div class="pricing-grid">
+
+
+            <div class="pricing-card reveal">
+
+                <h3>Basic</h3>
+
+                <div class="price">
+                    $49
+                    <small>/month</small>
+                </div>
+
+                <ul>
+                    <li>✓ 3 Courses</li>
+                    <li>✓ Course Materials</li>
+                    <li>✓ Community Access</li>
+                    <li>✓ Basic Support</li>
+                    <li class="disabled">× Certificate</li>
+                </ul>
+
+                <button class="price-btn">
+                    Get Started
+                </button>
+
+            </div>
+
+
+            <div class="pricing-card popular reveal">
+
+                <div class="popular-tag">
+                    MOST POPULAR
+                </div>
+
+                <h3>Professional</h3>
+
+                <div class="price">
+                    $99
+                    <small>/month</small>
+                </div>
+
+                <ul>
+                    <li>✓ Unlimited Courses</li>
+                    <li>✓ Course Materials</li>
+                    <li>✓ Live Classes</li>
+                    <li>✓ Priority Support</li>
+                    <li>✓ Certificate</li>
+                </ul>
+
+                <button class="price-btn">
+                    Get Started
+                </button>
+
+            </div>
+
+
+            <div class="pricing-card reveal">
+
+                <h3>Premium</h3>
+
+                <div class="price">
+                    $149
+                    <small>/month</small>
+                </div>
+
+                <ul>
+                    <li>✓ Unlimited Courses</li>
+                    <li>✓ Personal Mentor</li>
+                    <li>✓ Live Classes</li>
+                    <li>✓ Career Guidance</li>
+                    <li>✓ Premium Certificate</li>
+                </ul>
+
+                <button class="price-btn">
+                    Get Started
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CERTIFICATE ================= -->
+
+    <section class="certificate-section">
+
+        <div class="certificate-container reveal">
+
+            <div class="certificate-icon">
+                🏆
+            </div>
+
+            <div>
+
+                <span>GET CERTIFIED</span>
+
+                <h2>Earn Your Professional Certificate</h2>
+
+                <p>
+                    Complete your course and receive a certificate
+                    that you can showcase on your professional profile.
+                </p>
+
+            </div>
+
+            <button class="btn btn-primary" id="certificateBtn">
+                Learn More
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= TESTIMONIALS ================= -->
+
+    <section class="testimonials-section" id="testimonials">
+
+        <div class="section-heading reveal">
+
+            <span>STUDENT REVIEWS</span>
+
+            <h2>What Our Students Say</h2>
+
+            <p>
+                Thousands of students are learning with us.
+            </p>
+
+        </div>
+
+
+        <div class="testimonial-grid">
+
+
+            <div class="testimonial-card reveal">
+
+                <div class="stars">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p>
+                    "The Web Development course helped me understand
+                    modern web technologies and build real projects."
+                </p>
+
+                <div class="student">
+                    <img src="https://randomuser.me/api/portraits/men/45.jpg">
+
+                    <div>
+                        <strong>Hamza Ahmed</strong>
+                        <small>Web Development Student</small>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="testimonial-card reveal">
+
+                <div class="stars">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p>
+                    "The instructors are very supportive and the
+                    practical learning experience is excellent."
+                </p>
+
+                <div class="student">
+                    <img src="https://randomuser.me/api/portraits/women/32.jpg">
+
+                    <div>
+                        <strong>Fatima Noor</strong>
+                        <small>Graphic Design Student</small>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="testimonial-card reveal">
+
+                <div class="stars">
+                    ⭐⭐⭐⭐⭐
+                </div>
+
+                <p>
+                    "I really enjoyed the Digital Marketing course.
+                    The lessons were simple and easy to understand."
+                </p>
+
+                <div class="student">
+                    <img src="https://randomuser.me/api/portraits/men/54.jpg">
+
+                    <div>
+                        <strong>Bilal Khan</strong>
+                        <small>Marketing Student</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact-section" id="contact">
+
+        <div class="section-heading light reveal">
+
+            <span>CONTACT US</span>
+
+            <h2>Let's Start Learning</h2>
+
+            <p>
+                Have questions? Contact our academy team.
+            </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+            <div class="contact-card reveal">
+                <div>📍</div>
+                <h3>Location</h3>
+                <p>Karachi, Pakistan</p>
+            </div>
+
+            <div class="contact-card reveal">
+                <div>📧</div>
+                <h3>Email</h3>
+                <p>info@edupro.com</p>
+            </div>
+
+            <div class="contact-card reveal">
+                <div>📞</div>
+                <h3>Phone</h3>
+                <p>+92 300 1234567</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <h3>
+            Edu<span>Pro</span> Academy
+        </h3>
+
+        <p>
+            Learn skills. Build your future.
+        </p>
+
+        <p class="copyright">
+            © 2026 EduPro Academy. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- ================= REGISTRATION MODAL ================= -->
+
+    <div class="modal" id="registrationModal">
+
+        <div class="modal-box">
+
+            <button class="close-modal" id="closeModal">
+                ×
+            </button>
+
+            <div class="modal-heading">
+
+                <span>🎓</span>
+
+                <h2>Student Registration</h2>
+
+                <p>
+                    Fill out the form to join EduPro Academy.
+                </p>
+
+            </div>
+
+
+            <form id="registrationForm">
+
+                <div class="form-row">
+
+                    <div class="input-group">
+
+                        <label>Full Name</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Enter your name"
+                        >
+
+                        <small id="nameError"></small>
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label>Email</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Enter your email"
+                        >
+
+                        <small id="emailError"></small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="input-group">
+
+                        <label>Phone</label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            placeholder="03XX-XXXXXXX"
+                        >
+
+                        <small id="phoneError"></small>
+
+                    </div>
+
+
+                    <div class="input-group">
+
+                        <label>Course</label>
+
+                        <select id="course">
+
+                            <option value="">
+                                Select Course
+                            </option>
+
+                            <option>Web Development</option>
+                            <option>Graphic Design</option>
+                            <option>Business Management</option>
+                            <option>Programming</option>
+                            <option>UI/UX Design</option>
+                            <option>Digital Marketing</option>
+
+                        </select>
+
+                        <small id="courseError"></small>
+
+                    </div>
+
+                </div>
+
+
+                <button class="submit-btn" type="submit">
+                    Submit Registration
+                </button>
+
+                <div class="success-message" id="successMessage">
+                    🎉 Registration submitted successfully!
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
